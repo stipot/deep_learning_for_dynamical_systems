@@ -13,6 +13,12 @@ The scripts can be run using default parameters to reproduce the plots seen in t
 
 
 # Installing dependencies
+Create virtual env
+```
+python.exe -m venv env
+./env/Scripts/activate.bat
+
+```
 
 The dependencies necessary to run the scripts can be installed through pip using the `requirements.txt` file as follows:
 ``` bash
