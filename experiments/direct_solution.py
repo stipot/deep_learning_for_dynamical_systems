@@ -302,5 +302,6 @@ if __name__ == "__main__":
     plt.scatter(θ[0], ω[0], label="$y_0$", marker="*", c="g", s=200, zorder=100)
     plt.legend(loc="upper right")
     ax.set_aspect(1)
-
+    
     plt.show()
+    # plt.savefig("/var/edata/rez.png")

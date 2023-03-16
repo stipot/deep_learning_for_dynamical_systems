@@ -71,6 +71,7 @@ docker build . -t python_dynamical_systems
 Following this "containers" containing the code and all dependencies can be instantiated via the "run" command:
 ``` bash
 docker run -ti python_dynamical_systems bash
+docker run -it -v c:/3:/var/edata python_dynamical_systems bash
 ```
 The command will establish an interactive connection to the container.
 Following this you can execute the code as if it was running on your host machine:
